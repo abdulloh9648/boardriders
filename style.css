@@ -260,6 +260,17 @@ letter-spacing: -2%;
 text-align: center;
 width: 322px;
 height: 50px;
+transition: 0.3s;
+  }
+
+  .btn:hover{
+    color: rgb(130, 139, 141);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: center;
+text-align: center;
   }
 
   .shoes .container{
@@ -297,6 +308,7 @@ margin-bottom: 75px;
     box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.1),inset 0px -4px 10px 0px rgba(0, 0, 0, 0.2);
 background: rgb(0, 0, 0);
     display: flex;
+    justify-content: center;
     gap: 50px;
   }
 
@@ -337,3 +349,18 @@ background: rgb(0, 0, 0);
     text-align: left;
     width: 550px;
   }
+
+  .contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 47px 0 60px;
+  }
+
+
+  /* .contact-left{
+    background-image: url(/img/contact-left.png) no-repeat center /cover;
+    width: 668px;
+height: 789px;
+  } */
